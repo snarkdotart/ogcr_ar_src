@@ -1,0 +1,29 @@
+# ignore generated files
+/.gradle
+/build
+/dist
+/tmp
+
+# ignore node modules at ANY level below
+node_modules
+
+# ignore IDEA project files
+/.idea
+/*.iml
+/*.ipr
+/*.iws
+/.slcache
+
+# ignore Eclipse project files
+/.eclipse
+/.project
+/.classpath
+/.settings
+
+# ignore other IDEs project files
+.vscode
+/test/protractor/.history/
+
+# ignore Windows/Mac noise files
+Thumbs.db
+.DS_Store
