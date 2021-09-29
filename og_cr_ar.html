@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>OG:CR AR</title>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+  </head>
+  <body>
+  <div class="sample">
+    <model-viewer
+            src="OGCR_AR_Crystal.glb"
+            ios-src="OGCR_AR_Crystal.usdz"
+            name="Take 001"
+            poster="OGCR_AR_Crystal.jpg"
+            camera-orbit="350deg 95deg"
+            shadow-intensity="1"
+            autoplay
+            ar
+            ar-modes="webxr scene-viewer quick-look fallback"
+            camera-controls
+            alt="3D model of a ksoid"
+    />
+  </div>
+
+  </body>
+  <style>
+    .sample {
+      height: 100vw;
+      margin: 0 auto;
+    }
+    @media only screen and (min-width: 800px) {
+      .sample {
+        height: 150vw;
+      }
+      model-viewer {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 500px;
+      margin: 0 auto;
+    }
+  </style>
+</html>
