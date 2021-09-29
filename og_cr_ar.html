@@ -31,20 +31,17 @@
       height: 100vw;
       margin: 0 auto;
     }
-    @media only screen and (min-width: 800px) {
-      .sample {
-        height: 150vw;
-      }
-      model-viewer {
-        width: 100%;
-        height: 100%;
-      }
-    }
 
     model-viewer {
       width: 100%;
-      height: 500px;
-      margin: 0 auto;
+      height: 100%;
     }
+    @media only screen and (min-width: 992px) {
+      model-viewer {
+        width: 100%;
+        height: 500px;
+      }
+    }
+
   </style>
 </html>
